@@ -417,11 +417,27 @@ Table 2.2: Selected character data types and maximum size
 
   - Common file formats make it easy for people to read a file's contents and facilitate interoperability between tools.
 
-  - Delimiters separate variable-length fields in a file. 
+  - Delimiters separate variable-length fields in a file.
 
+# Module 2
 
+# Chapter 3
 
+# Databases and Data Acquisition
 
+In this chapter, we will learn about:
+
+- Data Concepts and Environments
+
+- Identify basic concepts of data schemas and dimensions
+
+- Understanding the domain of Data Mining
+
+- Explain data acquisition concepts
+
+- Explain common techniques for data manipulation and query optimization
+
+# Exploring Databases
 
 
 
