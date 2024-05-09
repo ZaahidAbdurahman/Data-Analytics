@@ -98,4 +98,21 @@ Data Analytics Excel Spreadsheet
 2. Compare and contrast different data types
 3. Compare and contrast common data structures and file formats
 
+EXPLORING DATA TYPES
+
+- A data element is an attribute about a person, place, or thing containing data within a range of values.
+- Data elements also describe characteristics of activities, including orders, transactions, and events. 
+
+
+
+
+![Screenshot (1)](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/936c362a-4aab-4396-961d-2a7cf267163f)
+
+
+
+
+
+
+
+TABULAR DATA
 
