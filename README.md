@@ -10,7 +10,7 @@
 
 4. The role of data governance.
 
-WHAT IS DATA ANALYTICS
+# WHAT IS DATA ANALYTICS
 
 - The ultimate role of a data analyst is to transform raw data into actionable insights that guide decision-making processes within an organization. 
 
@@ -56,49 +56,49 @@ WHAT IS DATA ANALYTICS
 
  Analytics is made possible by modern data, storage, and computing capabilities.
 
-THE ANALYTICS PROCESS
+# THE ANALYTICS PROCESS
 
  Analysts working with data move through a series of different steps as they seek to gain business value from their organization's data. 
 
--Data Acquisition
+- Data Acquisition
 
--Cleaning and Manipulation
+- Cleaning and Manipulation
 
--Analysis
+- Analysis
 
--Visualization
+- Visualization
 
--Reporting and Communication
+- Reporting and Communication
 
 While we describe the steps of the analytics process as a series of sequential actions.
 
 It is more accurate to think of them as a set of interrelated actions that may be revisited frequently while working with a dataset.
 
-Analytics Techniques:
+# Analytics Techniques:
 
  Analysts use a variety of techniques to draw conclusions from the data at their disposal.
 
- Descriptive Analytics
+#  Descriptive Analytics
 
--Descriptive analytics focuses on exploring and interpreting historical data to provide a comprehensive understanding of past events and trends. 
+- Descriptive analytics focuses on exploring and interpreting historical data to provide a comprehensive understanding of past events and trends. 
 
- Predictive Analytics
+#  Predictive Analytics
 
--Predictive analytics is particularly valuable for businesses when they want to stay ahead of future trends, behaviors, and outcomes.
+- Predictive analytics is particularly valuable for businesses when they want to stay ahead of future trends, behaviors, and outcomes.
 
-Prescriptive Analytics
+# Prescriptive Analytics
 
--Prescriptive analytics is most valuable for businesses when they are seeking to predict future outcomes and determine the best course of action to achieve specific objectives. 
+- Prescriptive analytics is most valuable for businesses when they are seeking to predict future outcomes and determine the best course of action to achieve specific objectives. 
 
-DATA GOVERNANCE
+# DATA GOVERNANCE
 
--Data governance programs ensure that the organization has high-quality data and is able to effectively control that data.
+- Data governance programs ensure that the organization has high-quality data and is able to effectively control that data.
 
-ANALYTICS TOOLS
+# ANALYTICS TOOLS
 
--Software helps analysts work through each one of the phases of the analytics process. 
+- Software helps analysts work through each one of the phases of the analytics process. 
 
--These tools automate much of the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize, and analyze data. 
+- These tools automate much of the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize, and analyze data. 
 
 ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/f09da0c1-e0ba-4ae7-a6e6-d04bd4a18d85)
 
@@ -114,7 +114,7 @@ Data Analytics Excel Spreadsheet
 
 3. Compare and contrast common data structures and file formats
 
-EXPLORING DATA TYPES
+# EXPLORING DATA TYPES
 
 - A data element is an attribute about a person, place, or thing containing data within a range of values.
 - Data elements also describe characteristics of activities, including orders, transactions, and events. 
@@ -128,7 +128,7 @@ EXPLORING DATA TYPES
 
 
 
-TABULAR DATA
+# TABULAR DATA
 
 - Tabular data is data organized into a table, made up of columns and rows. 
 
@@ -152,7 +152,7 @@ TABULAR DATA
  
 ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/83f2a93a-34b5-4530-9ea7-f7de6dd03c4b)
 
-CHARACTER
+# CHARACTER
 
 - The character data type limits data entry to only valid characters. 
 
@@ -160,7 +160,7 @@ CHARACTER
 
 - Depending on your needs, multiple data types are available that can enforce character limits.
 
-Alphanumeric is the most widely used data type for storing character-based data. As the name implies, alphanumeric is appropriate when a data element consists of both numbers and letters.
+# Alphanumeric is the most widely used data type for storing character-based data. As the name implies, alphanumeric is appropriate when a data element consists of both numbers and letters.
 
 - The alphanumeric data type is ideal for storing product stock-keeping units (SKUs).
 
@@ -171,32 +171,32 @@ Alphanumeric is the most widely used data type for storing character-based data.
 Table 2.2: Selected character data types and maximum size
 
 
-Character Sets
+# Character Sets
 
 - When considering alphanumeric and text data types, you need to think about the character set you are using to input and store data when using a database. 
 
 - Databases use character sets to map, or encode, data and store it digitally.
 
-Numeric
+# Numeric
 
 - When numbers exclusively make up values for a data attribute, numeric becomes the data type of choice.
 
-Whole Number
+# Whole Number
 
 - The integer, and all its subtypes, are for storing whole numbers. 
 
-Rational Number
+# Rational Number
 
 - In all its variants, the numeric data type is for rational numbers that include a decimal point.
 
-Date and Time
+# Date and Time
 
 - Gathered together under the broad category of date, day of year and time of day are data elements that appear with great frequency.
 
-Currency
+# Currency
 - Many people use spreadsheets to manage their finances. 
 
-Strong And Weak Typing
+# Strong And Weak Typing
 - Data types define values placed in columns. 
 - Strong typing is when technology rigidly enforces data types. 
 - Databases, discussed in Chapter 3, use strong typing. A database column defined as numeric only accepts numerical values. You will get an error if you attempt to enter characters into a numeric column.
@@ -233,9 +233,9 @@ Strong And Weak Typing
 
 - Qualitative data consists of frequent text values. Data elements whose values describe characteristics, traits, and attitudes are all qualitative.
 
-  Discrete vs. Continuous Data
+ # Discrete vs. Continuous Data
 
-  Discrete Data
+ # Discrete Data
 
 - Numeric data comes in two different forms: discrete and continuous.
 
@@ -246,7 +246,7 @@ Strong And Weak Typing
 ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/d2f5c70a-ee86-4e39-8af4-65cadcffe27c)
 
 
-Continuous Data
+# Continuous Data
 
 - Continuous data refers to data that can be measured.
   
@@ -256,13 +256,13 @@ Continuous Data
 
 
 
-Categorical Data 
+# Categorical Data 
 
 - In addition to quantitative, numeric data, there is categorical data. 
 
 - Text data with a known, finite number of categories is categorical.
 
-Dimensional Data
+# Dimensional Data
 
 - Dimensional modeling is an approach to arranging data to facilitate analysis. 
 
@@ -274,7 +274,7 @@ Dimensional Data
 
 - When considering structured data, several concepts and standards inform how to organize date.
 
-Structured Data
+# Structured Data
 
 - Tabular data is structured data, with values stored in a consistent, defined manner, organized into columns and rows. 
 
@@ -289,7 +289,7 @@ Structured Data
 Figure 2.20: Data entry error identified in a summary
 
 
-Unstructured Data
+# Unstructured Data
 
 - Unstructured data is qualitative, describing the characteristics of an event or an object. 
 
@@ -299,7 +299,7 @@ Unstructured Data
 
 Figure 2.22: Unstructured data: log entry
 
-Semi-Structured Data
+# Semi-Structured Data
 
 - Semi-structured data is data that has structure and that is not tabular. 
 
@@ -315,7 +315,7 @@ Semi-Structured Data
 
 - As a modern data analyst, you will need to recognize all of these formats and be familiar with common use cases for each type.
 
-Text Files
+# Text Files
 
 - Text files are one of the most commonly used data file formats.
 
@@ -337,7 +337,7 @@ Figure 2.26: Contents of a CSV file
 
 Figure 2.27: Semi-structured CSV
 
-Fixed-Width Files
+# Fixed-Width Files
 
 - Before it was common to use delimited files with variable-length columns, flat files were fixed-width. 
 
@@ -347,7 +347,7 @@ Fixed-Width Files
 
 Figure 2.28: Fixed-width file
 
-JavaScript Object Notation
+# JavaScript Object Notation
 
 - JavaScript Object Notation (JSON) is an open standard file format, designed to add structure to a text file without incurring significant overhead. 
 
@@ -358,7 +358,7 @@ JavaScript Object Notation
 Figure 2.29: Pet data JSON example
 
 
-Extensible Markup Language (XML)
+# Extensible Markup Language (XML)
 
 - Extensible Markup Language (XML) is a markup language that facilitates structuring data in a text file. 
 
@@ -368,7 +368,7 @@ Extensible Markup Language (XML)
 
 Figure 2.32: Representing a single animal in XML
 
-HyperText Markup Language (HTML)
+# HyperText Markup Language (HTML)
 
 - HyperText Markup Language (HTML) is a markup language for documents designed to be displayed in a web browser. 
 
@@ -378,7 +378,7 @@ HyperText Markup Language (HTML)
 
 Figure 2.34: HTML table in a browser
 
-Chapter 2 Summary
+# Chapter 2 Summary
 
 1. Consider the values of what you will store before selecting data types. 
 
