@@ -495,6 +495,31 @@ In this chapter, we will learn about:
 
   Figure 3.11: Foreign key data constraint
 
+# Normalization
+
+- Normalization is a process for structuring a database in a way that minimizes duplication of data. 
+
+- First normal form (1NF) Is when every row in a table is unique and every column contains a unique value. 
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/b2d2f043-685e-44df-8ae3-beb65fc17c1d)
+
+Figure 3.15: Data in first normal form
+
+- Second Form(2NF)In addition to each row being unique, 2NF applies an additional rule stating that all nonprimary key values must depend on the entire primary key.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/a88691cb-5cec-44e2-8731-9cb693793a4b)
+
+ Figure 3.16: Data in second normal form
+
+- Third Form (3NF)Adding a rule stating all columns must depend on only the primary key.
+
+- Evolving Figure 3.16 into 3NF results in Figure 3.17. 
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/bbe31969-c732-4baa-b56c-cadc885e478a)
+
+Figure 3.17: Data in third normal form
+
+
 # Online Transactional Processing
 
 - OLTP systems handle the transactions we encounter every day. 
@@ -503,7 +528,22 @@ In this chapter, we will learn about:
 
  Figure 3.14: Vet clinic transactional schema
 
-# Normalization
+Online Analytical Processing
+
+- OLAP systems focus on the ability of organizations to analyze data.
+
+- While OLAP and OLTP databases can both use relational database technology, their structures are fundamentally different.
+
+- OLTP databases need to balance transactional read and write performance, resulting in a highly normalized design.
+
+- Typically, OLTP databases are in 3NF.
+
+# Schema Concepts
+
+- The design of a database schema depends on the purpose it serves. 
+
+- Transactional systems require highly normalized databases, whereas a denormalized design is more appropriate for analytical systems.
+
 
 
 
