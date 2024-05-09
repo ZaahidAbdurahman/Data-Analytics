@@ -125,3 +125,83 @@ TABULAR DATA
 
 - Spreadsheets, including Microsoft Excel, Google Sheets, and Apple Numbers, are practical tools for representing tabular data
 
+- A relational database management system (RDMS), commonly called a database, extends the tabular model.
+
+# Structured Data Types
+
+-Structured data is tabular in nature and organized into rows and columns. 
+
+-Structured data is what typically comes to mind when looking at a spreadsheet. With clearly defined column headings, spreadsheets are easy to work with and understand. 
+
+-In a spreadsheet, cells are where columns and rows intersect.
+ 
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/83f2a93a-34b5-4530-9ea7-f7de6dd03c4b)
+
+CHARACTER
+
+-The character data type limits data entry to only valid characters. 
+
+-Characters can include the alphabet that you might see on your keyboard, as well as numbers. 
+
+-Depending on your needs, multiple data types are available that can enforce character limits.
+
+Alphanumeric is the most widely used data type for storing character-based data. As the name implies, alphanumeric is appropriate when a data element consists of both numbers and letters.
+
+The alphanumeric data type is ideal for storing product stock-keeping units (SKUs).
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/0c408cfc-4acd-4bf6-8006-fd81b071bab9)
+
+
+
+Table 2.2: Selected character data types and maximum size
+
+
+Character Sets
+
+-When considering alphanumeric and text data types, you need to think about the character set you are using to input and store data when using a database. 
+
+-Databases use character sets to map, or encode, data and store it digitally.
+
+Numeric
+
+-When numbers exclusively make up values for a data attribute, numeric becomes the data type of choice.
+
+Whole Number
+
+-The integer, and all its subtypes, are for storing whole numbers. 
+
+Rational Number
+
+-In all its variants, the numeric data type is for rational numbers that include a decimal point.
+
+Date and Time
+
+-Gathered together under the broad category of date, day of year and time of day are data elements that appear with great frequency.
+
+Currency
+-Many people use spreadsheets to manage their finances. 
+
+Strong And Weak Typing
+- Data types define values placed in columns. 
+- Strong typing is when technology rigidly enforces data types. 
+- Databases, discussed in Chapter 3, use strong typing. A database column defined as numeric only accepts numerical values. You will get an error if you attempt to enter characters into a numeric column.
+
+# Unstructured Data Types
+
+ While much of the data we use to record transactions is highly structured, most of the world's data is unstructured. 
+
+- Unstructured data is any type of data that does not fit neatly into the tabular model. 
+
+- Examples of unstructured data include digital images, audio recordings, video recordings, and open-ended survey responses. 
+
+- Binary data types are one of the most common data types for storing unstructured data.
+
+- Audio data can come from a variety of sources. 
+
+- Image data can come from a variety of sources. 
+
+- Video data is growing at a similar pace to image data.
+
+- Large Text is another data type
+
+
