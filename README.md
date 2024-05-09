@@ -371,19 +371,23 @@ Chapter 2 Summary
 
 - When dealing with numeric information, the best option is a numeric data type that can accommodate decimals.
 
+
 2. Know that you can format data after storing it.
 
 - While data types determine how data gets stored, formatting data governs how data will be displayed to a person.
 
+
 3. Consider the absolute limits of values that you will use before selecting data types.
 
 - When selecting data types, consider the range of values that a data element can contain.
+
 
 4. Explain the differences between structured and unstructured data
 
 - Individual data elements fall along the structured data continuum. 
 
 - At one end, there is highly structured, rectangular data.
+
 
 5. Understand the differences in common file formats
 
