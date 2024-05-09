@@ -113,6 +113,15 @@ EXPLORING DATA TYPES
 
 
 
-
 TABULAR DATA
+
+- Tabular data is data organized into a table, made up of columns and rows. 
+
+- A table represents information about a single topic.
+
+- Each column represents a uniquely named field within a table, also called a variable, about a single characteristic. 
+
+- The contents of each column contain values for the data element as defined by the column header.
+
+- Spreadsheets, including Microsoft Excel, Google Sheets, and Apple Numbers, are practical tools for representing tabular data
 
