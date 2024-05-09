@@ -241,3 +241,162 @@ Continuous Data
 
 
 
+Categorical Data 
+
+- In addition to quantitative, numeric data, there is categorical data. 
+
+- Text data with a known, finite number of categories is categorical.
+
+Dimensional Data
+
+- Dimensional modeling is an approach to arranging data to facilitate analysis. 
+
+- Dimensional modeling organizes data into fact tables and dimension tables.
+
+# Common Data Structures
+
+- In order to facilitate analysis, data needs to be stored in a consistent, organized manner.
+
+- When considering structured data, several concepts and standards inform how to organize date.
+
+Structured Data
+
+- Tabular data is structured data, with values stored in a consistent, defined manner, organized into columns and rows. 
+
+- Data is consistent when all entries in a column contain the same type of value.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/2db99357-14be-49cf-b037-a924694858b0)
+
+  Figure 2.19: Data Entry Error
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/6f96fe5f-9485-4d98-a4d7-976bbd2af0b4)
+
+Figure 2.20: Data entry error identified in a summary
+
+
+Unstructured Data
+
+- Unstructured data is qualitative, describing the characteristics of an event or an object. 
+
+- Images, phrases, audio or video recordings, and descriptive text are all examples of unstructured data.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/3e198f8c-15fc-4044-8120-1624aade7bd9)
+
+Figure 2.22: Unstructured data: log entry
+
+Semi-Structured Data
+
+- Semi-structured data is data that has structure and that is not tabular. 
+
+- Email is a well-known example of semi-structured data.
+
+- Every email message has structural components, including recipient, sender, subject, date, and time.
+
+# Common File Formats
+
+- Common file formats facilitate data exchange and tool interoperability. 
+
+- Several file formats have emerged as standards and are widely adopted. 
+
+- As a modern data analyst, you will need to recognize all of these formats and be familiar with common use cases for each type.
+
+Text Files
+
+- Text files are one of the most commonly used data file formats.
+
+- As the name implies, they consist of plain text and are limited in scope to alphanumeric data. 
+
+- When a file is comma-delimited, it is known as a comma-separated values (CSV) file. 
+
+- Similarly, when a file is tab-delimited, it is called a tab-separated values (TSV) file.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/9d13be63-a54c-4de6-93fc-827ea1e2c368)
+
+Figure 2.25: Exporting as CSV or TSV
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/12e15ede-d994-4efb-928e-4caf88a1fba3)
+
+Figure 2.26: Contents of a CSV file
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/bf1af23c-2d7c-4368-a588-15277a5620e5)
+
+Figure 2.27: Semi-structured CSV
+
+Fixed-Width Files
+
+- Before it was common to use delimited files with variable-length columns, flat files were fixed-width. 
+
+- As illustrated in Figure 2.28. Fixed-width files are more laborious to create since they require a few extra steps.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/ab16021e-fbdc-4a63-9f6c-bef7c4ef07c7)
+
+Figure 2.28: Fixed-width file
+
+JavaScript Object Notation
+
+- JavaScript Object Notation (JSON) is an open standard file format, designed to add structure to a text file without incurring significant overhead. 
+
+- One of its design principles is that JSON is easily readable by people and easily parsed by modern programming languages.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/0d0808b2-a1db-4985-8a10-50e5917e24af)
+
+Figure 2.29: Pet data JSON example
+
+
+Extensible Markup Language (XML)
+
+- Extensible Markup Language (XML) is a markup language that facilitates structuring data in a text file. 
+
+- While conceptually similar to JSON, XML incurs more overhead because it makes extensive use of tags. Tags describe a data element and enclose each value for each data element. 
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/67b83e15-aee6-417f-b808-55e4f9f09663)
+
+Figure 2.32: Representing a single animal in XML
+
+HyperText Markup Language (HTML)
+
+- HyperText Markup Language (HTML) is a markup language for documents designed to be displayed in a web browser. 
+
+- HTML pages serve as the foundation for how people interact with the World Wide Web. Similar to XML, HTML is a tag-based language.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/90bd006e-7e77-4559-bd3f-9ded416a504a)
+
+Figure 2.34: HTML table in a browser
+
+Chapter 2 Summary
+
+1. Consider the values of what you will store before selecting data types. 
+
+- Data types are used to store different kinds of values. 
+
+- When dealing with numeric information, the best option is a numeric data type that can accommodate decimals.
+
+2. Know that you can format data after storing it.
+
+- While data types determine how data gets stored, formatting data governs how data will be displayed to a person.
+
+3. Consider the absolute limits of values that you will use before selecting data types.
+
+- When selecting data types, consider the range of values that a data element can contain.
+
+4. Explain the differences between structured and unstructured data
+
+- Individual data elements fall along the structured data continuum. 
+
+- At one end, there is highly structured, rectangular data.
+
+5. Understand the differences in common file formats
+
+- Common file formats make it easy for people to read a file's contents and facilitate interoperability between tools.
+
+- Delimiters separate variable-length fields in a file. 
+
+
+
+
+
+
+
+
+
+
