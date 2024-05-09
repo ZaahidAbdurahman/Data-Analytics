@@ -90,3 +90,12 @@ ANALYTICS TOOLS
 
 Data Analytics Excel Spreadsheet
 
+
+
+CHAPTER 2
+
+1. Understand Domain 1.0: Data Concepts and Environments
+2. Compare and contrast different data types
+3. Compare and contrast common data structures and file formats
+
+
