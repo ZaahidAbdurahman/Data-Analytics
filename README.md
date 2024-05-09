@@ -10,6 +10,7 @@ CHAPTER 1
 WHAT IS DATA ANALYTICS
 
 -The ultimate role of a data analyst is to transform raw data into actionable insights that guide decision-making processes within an organization. 
+
 -This involves several key responsibilities and skills.
 -A data analyst helps an organization make informed decisions that can improve operational efficiencies, drive business strategies, and create a competitive advantage. 
 -The goal is to contribute to the organization's success by turning data into a valuable asset that informs and drives decision-making.
