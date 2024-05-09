@@ -12,7 +12,9 @@ WHAT IS DATA ANALYTICS
 -The ultimate role of a data analyst is to transform raw data into actionable insights that guide decision-making processes within an organization. 
 
 -This involves several key responsibilities and skills.
+
 -A data analyst helps an organization make informed decisions that can improve operational efficiencies, drive business strategies, and create a competitive advantage. 
+
 -The goal is to contribute to the organization's success by turning data into a valuable asset that informs and drives decision-making.
 
 1. Data Collection and Preparation:
@@ -51,9 +53,13 @@ THE ANALYTICS PROCESS
  Analysts working with data move through a series of different steps as they seek to gain business value from their organization's data. 
 
 -Data Acquisition
+
 -Cleaning and Manipulation
+
 -Analysis
+
 -Visualization
+
 -Reporting and Communication
 
 While we describe the steps of the analytics process as a series of sequential actions.
@@ -77,6 +83,7 @@ DATA GOVERNANCE
 
 ANALYTICS TOOLS
 -Software helps analysts work through each one of the phases of the analytics process. 
+
 -These tools automate much of the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize, and analyze data. 
 
 ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/f09da0c1-e0ba-4ae7-a6e6-d04bd4a18d85)
