@@ -1,6 +1,6 @@
 # Data-Analytics
 
-CHAPTER 1
+# CHAPTER 1
 
 1. What the role of a Data Analyst is and the scope of data analytics.
 2. The process of data analytics.
@@ -92,7 +92,7 @@ Data Analytics Excel Spreadsheet
 
 
 
-CHAPTER 2
+# CHAPTER 2
 
 1. Understand Domain 1.0: Data Concepts and Environments
 2. Compare and contrast different data types
