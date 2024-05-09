@@ -198,10 +198,46 @@ Strong And Weak Typing
 
 - Audio data can come from a variety of sources. 
 
-- Image data can come from a variety of sources. 
+- Image data can come from a variety of sources.
 
 - Video data is growing at a similar pace to image data.
 
 - Large Text is another data type
+
+  # Categories of Data
+
+- We try to fit data into structured and unstructured categories. 
+
+- The reality is that the world is not black and white, and not all data fits neatly into structured and unstructured categories. 
+
+- Semi-structured data represents the space between structured spreadsheets and unstructured videos.
+
+  Quantitative vs. Qualitative Data
+
+- Quantitative data consists of numeric values. Data elements whose values come from counting or measuring are quantitative.
+
+- Qualitative data consists of frequent text values. Data elements whose values describe characteristics, traits, and attitudes are all qualitative.
+
+  Discrete vs. Continuous Data
+
+  Discrete Data
+
+- Numeric data comes in two different forms: discrete and continuous.
+
+-  Discrete data is that it represents measurements that can't be subdivided.
+
+-  You may intuitively think of discrete data as using whole numbers,
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/d2f5c70a-ee86-4e39-8af4-65cadcffe27c)
+
+
+Continuous Data
+
+-  Continuous data refers to data that can be measured.
+  
+-  This data has values that are not fixed and have an infinite number of possible values.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/3090ea0c-2670-485e-88d0-064cb0b27503)
+
 
 
