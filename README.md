@@ -87,5 +87,6 @@ ANALYTICS TOOLS
 -These tools automate much of the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize, and analyze data. 
 
 ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/f09da0c1-e0ba-4ae7-a6e6-d04bd4a18d85)
+
 Data Analytics Excel Spreadsheet
 
