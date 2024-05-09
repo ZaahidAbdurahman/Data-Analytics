@@ -427,19 +427,83 @@ Table 2.2: Selected character data types and maximum size
 
 In this chapter, we will learn about:
 
-- Data Concepts and Environments
+ - Data Concepts and Environments
 
-- Identify basic concepts of data schemas and dimensions
+ - Identify basic concepts of data schemas and dimensions
 
-- Understanding the domain of Data Mining
+ - Understanding the domain of Data Mining
 
-- Explain data acquisition concepts
+ - Explain data acquisition concepts
 
-- Explain common techniques for data manipulation and query optimization
+ - Explain common techniques for data manipulation and query optimization
 
 # Exploring Databases
 
+# Relational database 
 
+ - Traditional workloads and systems
+
+ - Excels at storing and processing structured data 
+
+ - Consistency rollback
+
+ - Stored procedures
+
+ - Security ,OLAP
+
+ - Ease of backup
+
+ - Real Time data and detailed
+
+ - Relational databases are pieces of software that let you make an operational system out of an ERD
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/1546d49e-3690-420f-9791-15126342e2af)
+ 
+ Figure 3.6: Database schema
+
+
+# Nonrelational database 
+
+ - Developing application 
+
+ -  Unstructured
+
+ - Key values , Column store , Graph Databases , Doc store Databases
+
+ - Non-relational databases are ideal for handling large volumes of data and are highly efficient.
+
+ - A nonrelational database does not have a predefined structure based on tabular data.
+
+ - Flexibility, Scalability, Cost effectiveness
+
+# Entity Relationship Diagram
+
+- The entity relationship diagram (ERD) is a visual artifact of the data modeling process. 
+
+- It shows the connection between related entities.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/3b0178fa-a7a0-4cd3-ac43-bd461962b06e)
+
+  Figure 3.3: ERD line endings
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/3edcc5bc-6e5e-4429-8597-d088486b0c55)
+ 
+  Figure 3.4: Entity Relationship Diagram
+
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/e5ba70a2-c48e-4687-a4ba-cc1ef9a4110c)
+
+  Figure 3.11: Foreign key data constraint
+
+# Online Transactional Processing
+
+- OLTP systems handle the transactions we encounter every day. 
+
+![Screenshot (4)](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/e7e65247-2a4a-4b0b-950e-8c2464d3fa1b)
+
+ Figure 3.14: Vet clinic transactional schema
+
+# Normalization
 
 
 
