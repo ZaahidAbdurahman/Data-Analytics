@@ -550,17 +550,17 @@ Figure 3.17: Data in third normal form
 
  A data lake stores raw data in its native format instead of conforming to a relational database structure. 
   
-  -desgined to capture data from structured, unstructured and semi structured.
+  - Desgined to capture data from structured, unstructured and semi structured.
   
-  -Used for large amounts of data
+  - Used for large amounts of data
 
  A data warehouse is used for analytics and reporting.
 
- -Has no interference and faster processing.
+ - Has no interference and faster processing.
  
- -Designed for OLAP
+ - Designed for OLAP
  
- -Data summarized
+ - Data summarized
 
  The star schema design to facilitate analytical processing gets its name from what the schema looks like when looking at its entity relationship diagram, as Figure 3.20 illustrates.
 
