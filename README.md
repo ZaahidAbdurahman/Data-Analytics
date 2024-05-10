@@ -528,7 +528,7 @@ Figure 3.17: Data in third normal form
 
  Figure 3.14: Vet clinic transactional schema
 
-Online Analytical Processing
+# Online Analytical Processing
 
 - OLAP systems focus on the ability of organizations to analyze data.
 
@@ -544,7 +544,252 @@ Online Analytical Processing
 
 - Transactional systems require highly normalized databases, whereas a denormalized design is more appropriate for analytical systems.
 
+ A database used for transactions but slower at querying large amounts of data.
+
+ A data mart is a subset of a data warehouse.
+
+ A data lake stores raw data in its native format instead of conforming to a relational database structure. 
+  
+  -desgined to capture data from structured, unstructured and semi structured.
+  
+  -Used for large amounts of data
+
+ A data warehouse is used for analytics and reporting.
+
+ -Has no interference and faster processing.
+ 
+ -Designed for OLAP
+ 
+ -Data summarized
+
+ The star schema design to facilitate analytical processing gets its name from what the schema looks like when looking at its entity relationship diagram, as Figure 3.20 illustrates.
+
+ Star schemas are denormalized to improve read performance over large datasets.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/a191fb92-af52-43d1-a69e-b159bc7d90e0)
+
+ Figure 3.20: Star schema example
 
 
+ A snowflake schema query is more complex than the equivalent query in a star schema. 
+
+- Part of the trade-off is that a snowflake schema requires less storage space than a star schema.
+
+- Another design pattern for data warehousing is the snowflake schema. As its name implies, the schema diagram looks like a snowflake.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/6296e988-773e-4608-9ef3-5d9c8a8f50fe)
+
+  Figure 3.22: Snowflake example
 
 
+ # Dimensionality
+
+ - Dimensionality refers to the number of attributes a table has. 
+
+ - The greater the number of attributes, the higher the dimensionality.
+
+# Handling Dimensionality
+
+- There are multiple ways to design dimensions. Table 3.5 illustrates the start and end date approach. 
+
+- An understanding of this method is required to write a query to retrieve the current price.
+
+  ![Screenshot (5)](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/5687aae9-55c9-4639-8d96-13e3a4338cf4)
+
+   Table 3.5: Product dimension
+
+
+# Data Acquisition Concepts
+
+- To perform analytics, you need data. 
+
+- Data can come from internal systems you operate, or you can obtain it from third-party sources.
+
+# Integration 
+
+- Data from transactional systems flow into data warehouses and data marts for analysis.
+
+# ETL and ELT
+
+ Extract:  In the first phase, you extract data from the source system and place it in a staging area. 
+
+ The goal of the extract phase is to move data from a relational database into a flat file as quickly as possible.
+
+ Transform:  The second phase transforms the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
+
+ Load:  The purpose of the load phase is to ensure data gets into the analytical system as quickly as possible.
+
+- Extract, load, and transform (ELT) is a variant of ETL. With ELT, data is extracted from a source database and loaded directly into the data warehouse. 
+ 
+- Once the extract and load phases are complete, the transformation phase gets underway.
+
+# ETL Vendors
+
+ - Whether you choose ETL or ELT for loading your data warehouse, you don't have to write transformations by hand. 
+ 
+ - Many products support both ETL and ELT.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/eef1976c-31a7-4d84-8b40-a531a1eddbb9)
+
+  Figure 3.23: Delta load example
+
+  An initial load occurs the first time data is put into a data warehouse.
+ 
+  Figure 3.23 illustrates a monthly delta-load approach that continues throughout the year.
+
+#  Data collection methods
+
+ # Application Programming Interfaces (API)
+
+- An application programming interface (API) is a structured method for computer systems to exchange information. 
+ 
+- APIs provide a consistent interface to calling applications, regardless of the internal database structure. 
+
+#  Web Services
+
+- Many smartphone applications need a network connection, either cellular or Wi-Fi, to work correctly. 
+
+ # Surverys
+
+ - One way to collect data directly from your customers is by conducting a survey.
+ 
+ - The most simplistic surveys consist of one question and indicate customer satisfaction.
+
+#  Observation
+
+- Observation is the act of collecting primary source data, from either people or machines. 
+
+#  Sampling
+ 
+ - Regardless of the data acquisition approach, you may end up with more data than is practical to manipulate.
+
+  Survey Tools
+
+- Instead of designing a custom application to collect survey data, several survey products let you design complex surveys without worrying about building a database. 
+
+#  Web Scrapping
+
+- Some of the data you want may not be available internally as an API or publicly via a web service.
+
+# Working With Data
+
+# CRUD
+
+- Create new data.
+
+- Read existing data.
+
+- Update existing data.
+
+- Delete existing data.
+
+![Screenshot (6)](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/524c1543-8154-40cf-8764-8ac89a8f3995)
+
+ Table 3.8: Data manipulation in SQL
+ 
+ Augmenting data from your transactional systems with external data is an excellent way to improve the analytical capabilities of your organization. 
+
+ # Filtering
+
+- Examining a large table in its entirety provides insight into the overall population. 
+
+# Sorting
+
+- When querying a database, you frequently specify the order in which you want your results to return.
+
+# Date Functions
+
+- Date columns also appear in transactional systems. 
+ 
+- Storing date information about an event facilitates analysis across time.
+
+- The most important thing to note is that you have to understand the database platform you are using and how that platform handles dates and times.
+
+# Logical Functions
+
+- Logical functions can make data substitutions when retrieving data. 
+
+- Remember that a SELECT statement only retrieves data. 
+
+- The data in the underlying tables do not change when a SELECT runs.
+
+  
+ Boolean Expressions: The expression must return either TRUE or FALSE.
+
+ True: Value return true if return value
+
+ False: Value return false if return value
+
+# Aggregate Functions
+
+- Summarized data helps answer questions that executives have, and aggregate functions are an easy way to summarize data. 
+
+- Aggregate functions summarize a query's data and return a single value.
+
+# System Functions
+
+- Each database platform offers functions that expose data about the database itself. 
+
+- One of the most frequently used system functions returns the current date.
+
+# Query Optimization
+
+- Writing an SQL query is straightforward. Writing a SQL query that efficiently does what you intend can be more difficult. 
+ 
+- There are several factors to consider when creating well-performing SQL.
+
+ Paremetrization
+
+ - Whenever a SQL query executes, the database has to parse the query.
+ 
+ - Parsing translates the human-readable SQL into code the database understands. 
+
+ Indexing
+
+- When retrieving data from a table, the database has to scan each row until it finds the ones that match the filters in the WHERE clause. 
+
+- The process of looking at each row is called a full table scan.
+
+ Execution plan
+
+- An execution plan shows the details of how a database runs a specific query. 
+
+ Data Subsets and temperature tables
+
+- When dealing with large data volumes, you may want to work with a subset of records.
+
+# Chapter 3 Summary 
+
+Describe the characteristics of OLTP and OLAP systems
+
+- The two main categories of relational databases are transactional (OLTP) and analytical (OLAP). 
+
+- Transactional systems use highly normalized schema design, which allows for database reads and writes to perform well. 
+
+- Analytical systems are denormalized and commonly have a star or snowflake schema.
+
+Describe approaches for handling dimensionality 
+
+- It is crucial to keep track of how data changes over time to perform historical analysis. 
+
+- Although an effective date approach is valid, the SQL queries to retrieve a value at a specific point in time are complex.
+
+  Understand integration and how to populate a data warehouse
+
+- The more data an organization has, the more impactful the analysis it can conduct. 
+
+- The extract, transform, and load (ETL) process copies data from transactional to analytical databases.
+
+ Differentiate between data collection methods
+
+- Data can come from a variety of sources.
+
+- An organization may scrape websites or use publicly available databases to augment its data.
+
+  Describe how to manipulate data and optimize queries
+
+ - Analytical databases store massive amounts of data. 
+ 
+ - Manipulating the entire dataset for analysis is frequently infeasible. 
+ 
+ - To efficiently analyze data, understand that SQL has the power to filter, sort, and aggregate  data.
