@@ -793,3 +793,293 @@ Describe approaches for handling dimensionality 
  - Manipulating the entire dataset for analysis is frequently infeasible. 
  
  - To efficiently analyze data, understand that SQL has the power to filter, sort, and aggregate  data.
+
+# Chapter 4
+
+# Data Quality
+
+In this chapter, we will learn about:
+
+- Understanding the challenges of data quality. 
+
+- Identifying common reasons for cleansing and profiling datasets.
+
+- Executing data manipulation techniques.
+
+- Applying data quality control concepts.
+
+# Duplicate Data
+
+- Duplicate data occurs when data representing the same transaction is accidentally duplicated within a system. 
+
+- Suppose you want to open a spreadsheet on your local computer. To open the spreadsheet, you locate the file and double-click it. 
+
+- This method of opening documents establishes muscle memory that associates double-clicking with the desired action.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/072b5194-8ff9-4a89-837a-6eb16a169747)
+
+  Figure 4.1: Duplicate data resolution process
+
+# Redundant Data 
+
+- While duplicate data typically comes from accidental data entry.
+
+- Redundant data happens when the same data elements exist in multiple places within a system.
+
+- For example, multiple source systems that perform different business functions and use shared data elements create the conditions for data redundancy.
+
+
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/99cd6472-8647-4321-aa87-afe7a8a1b058)
+
+ Figure 4.3: Resolving redundancy with an integrated ETL process
+
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/d9ec8926-9f90-460e-9290-f7aae353cfcb)
+
+ 
+ Figure 4.4 illustrates a poorly designed transactional table for storing billing information.
+
+# Missing Values
+
+- Another issue that impacts data quality is the concept of missing values. 
+
+- Missing values occur when you expect an attribute to contain data but nothing is there. Missing values are also known as null values.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/d00a9047-f741-410f-993e-5682172c003a)
+
+  Figure 4.7: Missing temperature value
+
+
+# Invalid Data
+
+- Invalid data are values outside the valid range for a given attribute. 
+
+- An invalid value violates a business rule instead of having an incorrect data type. 
+
+- As such, you have to understand the context of a system to determine whether or not a value is invalid.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/d9aea00d-4776-4dbb-ab2e-dc0de5d15d32)
+
+ Figure 4.8: Invalid temperature value
+
+
+# Nonparametric Data
+
+ - Nonparametric data is data collected from categorical variables, which you read about in Chapter 2: Understanding Data. 
+ 
+ - Sometimes the categories indicate differentiation, and sometimes they have a rank order associated with them.
+
+# Data Outliers
+
+- A data outlier is a value that differs significantly from other observations in a dataset.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/e4375fff-538e-46d1-832b-8d8c2ab1136e)
+
+   Figure 4.10: Real estate sales outlier
+
+  Specification Mismatch
+
+- A specification describes the target value for a component. 
+
+- A specification mismatch occurs when an individual component's characteristics are beyond the range of acceptable values.
+
+  Data Type Validation
+
+- Data type validation ensures that values in a dataset have a consistent data type.
+
+- The primary keys for both the Manufacturer and Model expect integer values, while the Manufacturer_Name and Model_Name are characters.
+
+- Consider the schema excerpt in Figure 4.11.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/11c361c5-6de5-49d7-b741-76362de2ab9d)
+
+ Figure 4.11: Automotive schema excerpt
+
+# Data Manipulation Techniques
+
+- There are several potential issues to be aware of and account for when working with data. 
+
+- With those possibilities in mind, let's explore some of the data manipulation techniques you can use to resolve potential data quality issues.
+
+  Recoding Data
+
+ - Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis. 
+ 
+ - Recoding groups data into multiple categories, creating a categorical variable.
+ 
+ - A categorical variable is either nominal or ordinal.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/12032c2a-a3a3-459a-b277-339342c904a5)
+
+ Figure 4.14: Recoded patient pain data
+
+# Derived Variables
+
+- A derived variable is a new variable resulting from a calculation on an existing variable. 
+
+- In the case of the recoded data in Figure 4.14, the Pain_Category categorical variable is an example of a derived variable. 
+
+- However, derived variables don't have to be categorical.
+
+# Data Merge
+
+- A data merge uses a common variable to combine multiple datasets with different structures into a single dataset. 
+
+- Merging data improves data quality by adding new variables to your existing data.
+
+- 	Additional variables make for a richer dataset, which positively impacts the quality of your analysis.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/aa454fe9-a0ce-46c1-86af-727329599e78)
+
+Figure 4.18: ETL and the data merge approach
+
+# Data Blending
+
+- Data blending combines multiple sources of data into a single dataset at the reporting layer. 
+
+- While data blending is conceptually similar to the extract, transform, and load process in Chapter 3, there is a crucial difference.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/13bc92a9-8ee2-4caa-8c8d-1f632981dab4)
+
+  Figure 4.20: Data blending
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/9621a184-cb23-46fe-b20f-30ec33d82141)
+
+  Figure 4.19: Extract, transform, and load process
+
+  - Consider the illustration in Figure 4.19. With the traditional ETL workflow, the analyst needs to understand the data warehouse's structure to create a visualization.
+
+  - For routine analysis, such as weekly profitability, the ETL approach works well.
+ 
+  # Concatenation
+
+ - Concatenation is the merging of separate variables into a single variable. 
+
+ - Concatenation is a highly effective technique when dealing with a source system that stores components of a single variable in multiple columns. 
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/b26eafc1-beaf-471f-923a-0168be69b7ad)
+
+ Figure 4.21: Creating a date variable with concatenation
+
+# Data Append
+ 
+ - A data append combines multiple data sources with the same structure, resulting in a new dataset containing all the rows from the original datasets.
+ 
+ - When appending data, you save the result as a new dataset for ongoing analysis.
+
+ # Imputation
+
+- Imputation is a technique for dealing with missing values by replacing them with substitutes.
+
+- When merging multiple data sources, you may end up with a dataset with many nulls in a given column.
+
+# Reduction
+
+- When dealing with big data, it is frequently unfeasible and inefficient to manipulate the entire dataset during analysis. 
+
+- Reduction is the process of shrinking an extensive dataset without negatively impacting its analytical value.
+
+ # Dimensionality Reduction
+
+- One reduction technique is dimensionality reduction, which removes attributes from a dataset.
+
+- Removing attributes reduces the dataset's overall size. For instance, suppose you want to explore a person's weight as a function of time using the Weight Log data in Figure 4.25.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/74dc4251-ba85-475c-8ffd-5e1eb3587f17)
+
+  Figure 4.25: Dimensionality reduction example
+
+ # Numerosity Reduction
+
+- Another technique is numerosity reduction, which reduces the overall volume of data.
+
+- Suppose you are working with a decade's worth of Weight Log data from Figure 4.25, and you want to identify the most frequently occurring weight.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/a7246505-41a9-41df-b7e2-74f4ea834a9e)
+
+ Figure 4.26: Numerosity reduction with histograms
+
+ # Aggregation
+ 
+ - Data aggregation is the summarization of raw data for analysis.
+
+#  Transposition
+
+- Transposing data is when you want to turn rows into columns or columns into rows to facilitate analysis.
+
+# Normalization
+
+- In the context of data manipulation, normalizing data differs from our discussion of database normalization in Chapter 3.
+
+Min-Max Normalization
+
+- If you're curious about how the min-max normalization, consider its mathematical definition:
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/73d84520-1a89-4bc2-936f-dad74a74e41a)
+
+# Parsing/String Manipulation
+
+- Raw data can contain columns with composite or distributed structural issues.
+
+- A composite issue is when a raw data source has multiple, distinct values combined within a single character column.
+
+# Managing Data Quality
+
+# Circumstances to Check for Quality
+
+- There are numerous circumstances where it is appropriate to implement data quality control checks.
+
+- Every stop along the data life-cycle journey can impact data quality.
+
+- Errors during data acquisition, transformation, manipulation, and visualization all contribute to degrading data quality.
+
+  You should recognize the types of quality issues that can occur and have an overarching strategy to ensure the quality of your data.
+
+ - Data Acquisition
+
+- Data Transformation and Conversion
+
+- Data Manipulation
+
+- Final Product Preparation
+
+  Automated Validation
+
+- Many data sources feed analytics environments. While some of these data sources are other computer systems, others depend directly on people.
+
+- Whenever people interact with systems, it's possible to introduce data-related errors.
+
+Data Quality Dimensions
+
+- It is essential to consider multiple attributes of data when considering its quality. 
+
+- Six dimensions to take into account when assessing data quality are accuracy, completeness, consistency, timeliness, uniqueness, and validity.
+
+- Data Accuracy
+
+- Data Completeness
+
+- Data Consistency
+
+- Data Timeliness
+
+- Data Uniqueness
+
+- Data Validity
+
+  Data Quality Rules and Metrics
+
+With an understanding of data quality dimensions, you need to consider how to measure each of them in your quest to improve overall quality. Let's consider data conformity, which encompasses elements of accuracy, consistency, uniqueness, and validity. 
+
+
+
+
+
+
+
+
+
+
+
+
