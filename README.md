@@ -1070,10 +1070,69 @@ Data Quality Dimensions
 
   Data Quality Rules and Metrics
 
-With an understanding of data quality dimensions, you need to consider how to measure each of them in your quest to improve overall quality. Let's consider data conformity, which encompasses elements of accuracy, consistency, uniqueness, and validity. 
+- With an understanding of data quality dimensions, you need to consider how to measure each of them in your quest to improve overall quality.
 
+- Let's consider data conformity, which encompasses elements of accuracy, consistency, uniqueness, and validity.
 
+-  When consolidating data from multiple source systems into an analytics environment, one factor you want to assess is the conformity or nonconformity of data.
 
+ # Methods to Validate Quality
+
+ - Numerous methods are available for validating data quality.
+ 
+ - These methods range from whether or not your data passes reasonable expectations to statistical methods that look for irregular patterns within your data.
+ 
+ - A sound approach to ensuring and improving data quality is by combining these methods appropriately.
+
+# Reasonable Expectations
+
+- One approach is to determine whether or not the data in your analytics environment meets your reasonable expectations.
+
+# Data Profiling
+
+- Another approach to improving quality is to profile your data.
+
+- Data profiling uses statistical measures to check for data discrepancies, including values that are missing, that occur either infrequently or too frequently, or that should be eliminated.
+
+# Data Audits
+
+- Another method to keep in mind is auditing your data. 
+
+- Data audits look at your data and help you understand whether or not you have the data you need to operate your business.
+
+# Sampling
+
+- Another method for validating data quality is by examining a sample of your data.
+
+- Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data.
+
+Cross-Validation
+
+- Analysts frequently use existing data to generate predictive models using a variety of statistical methods. 
+
+- Cross-validation is a statistical technique that evaluates how well predictive models perform.
+
+Describe the unique challenge of missing data values. 
+
+- A missing value is the absence of a value. Regardless of the programming language you use to manipulate data, you need additional checks to account for the lack of a value.
+
+Describe why it is crucial to account for data outliers. 
+
+- An outlier is an observation whose value differs significantly from other observations of the same type.
+
+  Describe the difference between data merging and data blending. 
+
+ - Both data merging and data blending combine data sources. 
+ 
+ - However, data merging combines sources programmatically, typically through an ETL operation.
+
+ Differentiate between dimensionality and numerosity reduction. 
+
+ - Dimensionality reduction is a technique for removing attributes that are not relevant for the analysis at hand.
+
+ Describe how you can enforce data validity. 
+
+- Data validity is the data quality dimension that identifies whether a given value falls within an expected range.
 
 
 
