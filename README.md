@@ -129,8 +129,6 @@ Data Analytics Excel Spreadsheet
 
 
 
-
-
 # TABULAR DATA
 
  - Tabular data is data organized into a table, made up of columns and rows. 
@@ -1133,6 +1131,343 @@ Describe why it is crucial to account for data outliers. 
  Describe how you can enforce data validity. 
 
 - Data validity is the data quality dimension that identifies whether a given value falls within an expected range.
+
+# Data Analysis and Statistics
+
+In this chapter, we will learn how to:
+
+- Understand the concepts of statistics.
+
+- Learning about the appropriate descriptive statistical methods.
+
+- Understand the inferential statistical methods.
+
+- Summarize types of analysis and key analysis techniques.
+
+# Fundamentals of Statistics
+
+- One key concept is the definition of a population.
+
+- A population represents all the data subjects you want to analyze.
+
+- Collecting a sample is a cost-effective and time-effective alternative to gathering census data.
+
+- A sample is a subset of the population.
+
+- You analyze samples in terms of statistics.
+
+- A statistic is a numeric representation of a property of a sample.
+
+ Common Symbols in Statistics
+
+- Statistics is all about exploring numbers and performing calculations. 
+
+![Screenshot (7)](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/c832a002-f435-41da-a14d-d5e64f3b5527)
+
+Table 5.1: Common symbols in statistics
+
+- Descriptive statistics focus on describing the visible characteristics of a dataset, using summary statistics, graphs, and tables.
+
+- Inferential statistics, on the other hand, use samples to draw inferences about larger populations.
+
+Sample
+
+- Size of the population used for study.
+
+Sample Size
+
+- Total amount of things in a sample.
+
+Quantitative Data
+
+- Data that is measured in numbers. It deals with numbers that make sense to perform artithmetic calculations with HEIGHT,WEIGHT,MIDTERM SCORE variables.
+
+Categorical Data 
+
+- Refers to the values that place things in different groups or categories.
+
+Descriptive Statistics
+
+- Descriptive statistics is a branch of statistics that summarizes and describes data.
+
+- As you explore a new dataset for the first time, you want to develop an initial understanding of the size and shape of the data.
+
+- You use descriptive statistics as measures to help you understand the characteristics of your dataset.
+
+Measures of Frequency
+
+- Measures of frequency help you understand how often something happens.
+
+- When encountering a dataset for the first time, you want to determine how much data you are working with to help guide your analysis.
+
+Count
+
+- The most straightforward way to understand how much data you're working with is to count the number of observations.
+
+Percentage
+
+- The percentage is a frequency measure that identifies the proportion of a given value for a variable with respect to the total number of rows in the dataset.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/21711c54-6ad7-417d-b22d-e67f329b95d1)
+
+  Table 5.3: Sample data
+
+  Frequency
+
+- Frequency describes how often a specific value for a variable occurs in a dataset.
+
+- You typically explore frequency when conducting univariate analysis.
+
+# Measures of Central Tendency
+
+- To help establish an overall perspective on a given dataset, an analyst explores various measures of central tendency.
+
+ Mean
+
+- The mean, or average, is a measurement of central tendency that computes the arithmetic average for a given set of numeric values.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/cc25881e-e17c-4bfd-ae16-f6291d2dd571)
+
+ Formula
+
+
+Median
+
+- Another measurement of central tendency is the median, which identifies the midpoint value for all observations of a variable.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/e0c7dd2b-c962-4138-9b24-4e2e89bc0219)
+
+Odd Numbers Formula
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/755bf1e5-8d26-4390-a00a-fc7b5674a7b2)
+
+Even Numbers
+
+Mode
+
+- The mode is a variable's most frequently occurring observation.
+
+- Depending on your data, you may not have a mode.
+
+Measures of Dispersion
+
+ - In addition to central tendency, it is crucial to understand the spread of your data. 
+ 
+ - You use measures of dispersion to create context around data spread.
+ 
+ - Let's explore five common measures of dispersion.
+
+Range
+
+- The range of a variable is the difference between its maximum and minimum values.
+
+Distribution
+
+- In statistics, a probability distribution, or distribution, is a function that illustrates probable values for a variable, and the frequency with which they occur.
+
+Normal Distribution
+
+- The normal distribution is symmetrically dispersed around its mean, which gives it a distinctive bell-like shape.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/1bd7b87f-8bb0-4bb0-ab20-f5155fbb023d)
+
+Figure 5.7: Normal distribution
+
+Skewed Distribution
+
+- A skewed distribution has an asymmetrical shape, with a single peak and a long tail on one side.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/7dc99b9f-80d0-4d50-8bcc-a9d3cec6b6c8)
+
+ Figure 5.8: Right skewed distribution
+
+Bimodal Distribution
+
+ A bimodal distribution has two distinct modes, whereas a multimodal distribution has multiple distinct modes. 
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/387940b0-61b3-4118-8aad-31ce195732bf)
+
+ Figure 5.10: Bimodal distribution
+ 
+ 
+ Variance
+
+ Variance is a measure of dispersion that takes the values for each observation in a dataset and calculates how far away they are from the mean value. 
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/c28e0df2-7588-4af4-8e74-8a39af6bb799)
+
+ Variance Formula
+
+ Standard Deviation
+
+- Standard deviation is a statistic that measures dispersion in terms of how far values of a variable are from its mean.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/3b83953b-93b2-45f5-b96e-ca52a763254e)
+
+
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/a0537cd0-1b38-4947-9359-d0762591a3b2)
+
+
+ Each Sample is Unique
+
+- Keep in mind that each sample from a population is unique.
+
+- Suppose you take two different samples from a population.
+
+ Special Normal Distributions
+
+- The Central Limit Theorem and empirical rule combine to make the normal distribution the most important distribution in statistics.
+
+ Standard Normal Distribution
+
+- The standard normal distribution, or Z-distribution, is a special normal distribution with a mean of 0 and a standard deviation of 1.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/c4251697-3fe9-432f-a576-089888277982)
+
+ Calculating Standardized Scores
+
+ Student's T-Distribution
+
+- The Student's t-distribution, commonly known as the t-distribution, is similar to the standard normal distribution in that it has a mean of 0 with a bell-like shape.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/77f5cf81-8d73-4ae1-a229-1812f8195055)
+
+ Figure 5.12: Standard normal distribution and t-distribution
+
+ # Measures of Position
+
+ - Understanding a specific value for a variable relative to the other values for that variable gives you an indication of the organization of your data.
+
+# Inferential Statistics
+
+- Inferential statistics is a branch of statistics that uses sample data to draw conclusions about the overall population.
+
+# Confidence Intervals
+
+- Each time you take a sample from a population, the statistics you generate are unique to the sample.
+
+- In order to make inferences about the population as a whole, you need a way to come up with a range of scores that you can use to describe the population as a whole.
+
+Confidence Interval Considerations
+
+- While it is possible to develop a confidence interval for a skewed distribution, our conversation will focus on a normal distribution.
+
+- Presume the sample mean, population standard deviation, and sample size are known.
+
+ ![Screenshot (8)](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/1c033936-fdf7-4075-a99c-217034e8e243)
+
+ Substituting Sample Standard Deviation For Population Standard Deviation
+
+- When calculating confidence intervals, you need to have the standard deviation of the entire population.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/e80314db-f8a1-409a-b22e-38e4a3a90246)
+
+  Hypothesis Testing
+
+- Data analysts frequently need to build convincing arguments using data.
+
+- One of the approaches to proving or disproving ideas is hypothesis testing.
+
+- A hypothesis test consists of two statements, only one of which can be true.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/4c60ea3f-b9f2-40b1-aa8c-ca2027cbaf92)
+
+ Figure 5.17: Visualizing alpha
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/3cfd72d2-256a-41e6-89c2-47eb92514628)
+ 
+ Figure 5.18: One-tailed test
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/e46a359c-d3b9-4312-bbce-112f1c14bf5b)
+ 
+ Figure 5.19: Two-tailed test
+
+ Simple Linear Regression
+
+- Simple linear regression is an analysis technique that explores the relationship between an independent variable and a dependent variable.
+
+- You can use linear regression to identify whether the independent variable is a good predictor of the dependent variable. 
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/0b77bd07-b8e7-4676-ae10-641a7231b0bf)
+
+  Figure 5.23: Simple linear regression of age and BMI
+
+  From Simple to Multiple Linear Regression
+
+- Note that you explore the relationship between two variables using simple linear regression.
+
+- Multiple linear regression builds on that concept by examining the effect of numerous independent variables on a dependent variable.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/de459c8a-bb15-4e76-b9ce-f9a931a1bb3a)
+
+   Figure 5.26: Highly correlated data
+
+  Analysis Techniques
+
+- Data analysts have an abundance of statistical tools available to explore data in the pursuit of insights.
+
+  Determine Type of Analysis
+
+ - When embarking on a new analytics challenge, you need to understand the business objectives and desired outcomes. 
+ 
+ - This understanding informs the type of analysis you will conduct.
+
+ Types of Analysis
+
+ - With a clear scope and access to the data you need, you can get on with your analytical work. 
+ 
+ - One of the types of analysis you may be asked to perform is trend analysis. Trend analysis seeks to identify patterns by comparing data over time.
+
+ - In addition to trend analysis, you may also conduct performance analysis.
+ 
+ - Performance analysis examines defined goals and measures performance against them and can inform the development of future projections.
+
+ -  Link analysis is a technique that uses network theory to explore the relationship between data points.
+
+ Exploratory Data Analysis
+
+ - At the onset of your analysis, you will encounter many datasets for the first time.
+ 
+ - When first exploring a dataset, it's a good idea to perform an exploratory data analysis.
+ 
+ - An exploratory data analysis (EDA) uses descriptive statistics to summarize the main characteristics of a dataset, identify outliers, and give you context for further analysis. 
+
+ - EDA, they typically encompass the following steps:
+
+ Check Data Structure:  
+ 
+ - Ensure that data is in the correct format for analysis.
+ 
+ - Most analysis tools expect data to be in a tabular format, so you need to confirm that your data has defined rows and columns.
+
+ Check Data Representation: 
+ 
+ - Become familiar with the data. 
+ 
+ - In this step, you validate data types and ensure that variables contain the data you expect.
+
+ Check if Data Is Missing:  
+ 
+ - Check to see if any data is missing from the dataset and determine what to do next.
+ 
+ - While checking for null values, calculate the proportion of each variable that is missing.
+ 
+ - If you discover that most of the data you need is missing.
+
+ Identify Outliers: 
+
+- Recall from Chapter 4 that an outlier is an observation of a variable that deviates significantly from other observations of that variable. 
+
+- As shown in this chapter, outliers can dramatically impact some descriptive statistics, like the mean.
+
+ Summarize Statistics:  
+
+- Calculate summary statistics for each variable. For numeric variables, examples of summary statistics include mean, median, and variance.
+
+ Check Assumptions:  
+ 
+ - Depending on the statistical method you are using, you need to understand the shape of the data.
 
 
 
