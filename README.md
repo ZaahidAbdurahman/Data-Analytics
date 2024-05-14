@@ -1305,7 +1305,6 @@ Bimodal Distribution
  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/3b83953b-93b2-45f5-b96e-ca52a763254e)
 
 
-
  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/a0537cd0-1b38-4947-9359-d0762591a3b2)
 
 
@@ -1349,7 +1348,7 @@ Bimodal Distribution
 
 - In order to make inferences about the population as a whole, you need a way to come up with a range of scores that you can use to describe the population as a whole.
 
-Confidence Interval Considerations
+ Confidence Interval Considerations
 
 - While it is possible to develop a confidence interval for a skewed distribution, our conversation will focus on a normal distribution.
 
@@ -1413,7 +1412,7 @@ Confidence Interval Considerations
  
  - This understanding informs the type of analysis you will conduct.
 
- Types of Analysis
+ # Types of Analysis
 
  - With a clear scope and access to the data you need, you can get on with your analytical work. 
  
@@ -1425,7 +1424,7 @@ Confidence Interval Considerations
 
  -  Link analysis is a technique that uses network theory to explore the relationship between data points.
 
- Exploratory Data Analysis
+ # Exploratory Data Analysis
 
  - At the onset of your analysis, you will encounter many datasets for the first time.
  
@@ -1469,8 +1468,43 @@ Confidence Interval Considerations
  
  - Depending on the statistical method you are using, you need to understand the shape of the data.
 
+Differentiate between descriptive and inferential statistics. 
 
+Descriptive statistics 
 
+- Helps you understand past events by summarizing data and include measures of frequency and measures of dispersion.
+
+- Inferential statistics use the powerful concept of concluding an overall population using a sample from that population.
+
+# Calculate measures of central tendency. 
+
+- Given a dataset, you should feel comfortable calculating the mean, median, and mode.
+
+- Recall that the mean is the mathematical average. The median is the value that separates the lower and higher portions of an ordered set of numbers.
+
+- The mode is the value that occurs most frequently.
+
+- While mean and median are applicable for numeric data, evaluating the mode is particularly useful when describing categorical data.
+
+# Explain how to interpret a p-value when hypothesis testing. 
+
+- Recall that p-values denote the probability that a test statistic is as extreme as the actual result, presuming the null hypothesis is true.
+
+- The lower the p-value, the more evidence there is to reject the null hypothesis.
+
+# Explain the difference between a Type I and Type II error. 
+
+- When hypothesis testing, a Type I error is a false positive, while a Type II error is a false negative.
+
+- Suppose you have a null hypothesis stating that a new vaccine is ineffective and an alternative hypothesis stating that the vaccine has its intended impact.
+
+- Concluding that the vaccine is effective when it isn't is a Type I error. A Type II error is a false conclusion that the vaccine does not work when it does have the intended effect.
+
+# Describe the purpose of exploratory data analysis (EDA). 
+
+- One of the first things you should perform with any new dataset is EDA, a structured approach using descriptive statistics to summarize the characteristics of a dataset. 
+
+- Identify any outliers, and help you develop your plan for further analysis.
 
 
 
