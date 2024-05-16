@@ -1281,7 +1281,7 @@ Skewed Distribution
 
  Figure 5.8: Right skewed distribution
 
-Bimodal Distribution
+# Bimodal Distribution
 
  A bimodal distribution has two distinct modes, whereas a multimodal distribution has multiple distinct modes. 
 
@@ -1290,7 +1290,7 @@ Bimodal Distribution
  Figure 5.10: Bimodal distribution
  
  
- Variance
+# Variance
 
  Variance is a measure of dispersion that takes the values for each observation in a dataset and calculates how far away they are from the mean value. 
 
@@ -1314,7 +1314,7 @@ Bimodal Distribution
 
 - Suppose you take two different samples from a population.
 
- Special Normal Distributions
+# Special Normal Distributions
 
 - The Central Limit Theorem and empirical rule combine to make the normal distribution the most important distribution in statistics.
 
@@ -1348,7 +1348,7 @@ Bimodal Distribution
 
 - In order to make inferences about the population as a whole, you need a way to come up with a range of scores that you can use to describe the population as a whole.
 
- Confidence Interval Considerations
+# Confidence Interval Considerations
 
 - While it is possible to develop a confidence interval for a skewed distribution, our conversation will focus on a normal distribution.
 
@@ -1362,7 +1362,7 @@ Bimodal Distribution
 
   ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/e80314db-f8a1-409a-b22e-38e4a3a90246)
 
-  Hypothesis Testing
+ # Hypothesis Testing
 
 - Data analysts frequently need to build convincing arguments using data.
 
