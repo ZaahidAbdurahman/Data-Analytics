@@ -1074,7 +1074,7 @@ Data Quality Dimensions
 
 -  When consolidating data from multiple source systems into an analytics environment, one factor you want to assess is the conformity or nonconformity of data.
 
- # Methods to Validate Quality
+# Methods to Validate Quality
 
  - Numerous methods are available for validating data quality.
  
