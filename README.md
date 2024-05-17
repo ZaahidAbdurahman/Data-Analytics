@@ -12,7 +12,7 @@
 
  4. The role of data governance.
 
-__WHAT IS DATA ANALYTICS
+# WHAT IS DATA ANALYTICS
 
  - The ultimate role of a data analyst is to transform raw data into actionable insights that guide decision-making processes within an organization. 
 
