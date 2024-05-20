@@ -1446,7 +1446,7 @@ Skewed Distribution
  
  - In this step, you validate data types and ensure that variables contain the data you expect.
 
- Check if Data Is Missing:  
+# Check if Data Is Missing:  
  
  - Check to see if any data is missing from the dataset and determine what to do next.
  
@@ -1460,7 +1460,7 @@ Skewed Distribution
 
 - As shown in this chapter, outliers can dramatically impact some descriptive statistics, like the mean.
 
- Summarize Statistics:  
+# Summarize Statistics:  
 
 - Calculate summary statistics for each variable. For numeric variables, examples of summary statistics include mean, median, and variance.
 
@@ -1506,8 +1506,240 @@ Differentiate between descriptive and inferential statistics. 
 
 - Identify any outliers, and help you develop your plan for further analysis.
 
+Chapter 6
 
+In this chapter, we will learn about:
 
+- The most common tools used for Data Analytics
 
+- The preferred programming languages for Data Analytics 
 
+- The techniques of how analysts and developers interact with databases
 
+# Spreadsheets
+
+- The spreadsheet is the most widely used tool in the world of analytics.
+
+- It is hard to imagine anyone who does not use spreadsheets as part of their work because they provide an intuitive way to organize our data into rows and columns.
+
+- Spreadsheets are productivity software packages that allow users to create documents that organize any type of data into rows and columns. 
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/1b5d289f-d46a-4f13-8f36-f69a13e0edb6)
+
+ Figure 1: Table of data in Microsoft Excel
+
+# Programming Languages
+
+- Programming languages allow skilled software developers to write their own instructions to the computer.
+
+- Allowing them to directly specify the actions that should take place during the analytics process.
+
+# R
+
+- The R programming language is extremely popular among data analysts because it is focused on creating analytics applications.
+
+- R gained rapid traction as a popular language for several reasons.
+
+- First, it is available to everyone as a free, open-source language developed by a community of committed developers. 
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/f18353f6-8dbd-4fdb-b11a-b097998387d5)
+
+ Figure 3: Data analysis using R and RStudio
+
+# Python
+
+- Python is arguably the most popular programming language in use today.
+
+- Python is about the same age as R, but the major difference between Python and R is that Python is a general-purpose programming language.
+
+- Python also has specialized libraries that focus on the needs of analysts and data scientists.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/0efab725-9429-4d4c-b51d-7329fb48869d)
+
+  Figure 4: Data analysis using Python and pandas
+
+ # Structured Query Language (SQL)
+
+- The Structured Query Language (SQL) is the language of databases.
+
+- Any time a developer, administrator, or end user interacts with a database, that interaction happens through the use of a SQL command.
+
+- SQL is divided into two major sublanguages:
+
+The Data Definition Language (DDL) 
+
+- It is used mainly by developers and administrators.
+
+- It's used to define the structure of the database itself.
+
+- It doesn't work with the data inside a database, but it sets the ground rules for the database to function.
+
+ Data Manipulation Language (DML) 
+ 
+- Is a subset of SQL commands that are used to work with the data inside of a database.
+
+- They do not change the database structure, but they add, remove, and change the data inside a database.
+
+  There are three DDL commands that you should know:
+
+- The CREATE command is used to create a new table within your database or a new database on your server.
+
+- The ALTER command is used to change the structure of a table that you've already created.
+
+- The DROP command deletes an entire table or database from your server.
+
+  There are also four DML commands that you should know:
+
+- The SELECT command is used to retrieve information from a database.
+
+- The INSERT command is used to add new records to a database table.
+
+- The UPDATE command is used to modify rows in the database.
+
+- The DELETE command is used to delete rows from a database table.
+
+# Statistics Packages
+
+-  Statistics packages are a great example of this.
+
+-  These software packages go beyond the simple statistical analyses that are possible in spreadsheets.
+
+-  Provides access to advanced statistical environments that are accessible through a graphical user interface and/or a built-in scripting language.
+
+# IBM SPSS
+
+- One of the most popular pieces of statistical software is IBM's SPSS package.
+
+- SPSS is one of the oldest statistical software packages, first released in 1968.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/85176a70-5984-400e-8b0e-a2e2a178652e)
+
+ Figure 7: Analysing data in SAS
+
+ Stata
+
+ - Stata is yet another statistical analysis package that dates back to the 1980s and continues to be updated today. 
+ 
+ - It offers essentially the same features as SPSS and SAS and provides users with both a graphical interface and a command-line interface depending on their personal preference.
+
+   ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/740fbe20-1acb-4d30-a33a-06c0e4f8f343)
+
+ Figure 8: Building a simple model in Stata
+
+# Minitab
+
+- The final statistical software package covered on the Data+ exam is Minitab.
+
+- Once again, Minitab shares most of the same features as SPSS, SAS, and Stata but fits into the same category as Stata.
+
+# Machine Learning
+
+- Moving on from statistics-focused tools, the industry also makes use of a set of graphical tools designed to help analysts build machine learning models without requiring them to actually write the code to do so.
+ 
+# IBM SPSS Modeler
+
+- IBM's SPSS Modeler is one popular tool for building graphical machine learning models.
+
+# RapidMiner
+
+- RapidMiner is another graphical machine learning tool that works in a manner similar to IBM SPSS Modeler.
+
+# Analytics Suites
+
+Analytics tools that fit into two basic models: 
+
+- Programming languages that allow skilled developers to complete whatever analytic task face them and specialized tools, such as spreadsheets, statistics packages, and
+
+- Machine learning tools that focus on one particular component of the analytics process.
+
+# IBM Cognos
+
+- IBM Cognos is an example of one of these integrated analytics suites.
+
+- Cognos Connection is a web-based portal that offers access to other elements of the Cognos suite.
+
+- Query Studio provides access to data querying and basic reporting tools.
+
+- Report Studio offers advanced report design tools for complex reporting needs.
+
+- Analysis Studio enables advanced modeling and analytics on large datasets.
+
+# Microsoft Power BI
+
+- Power BI is Microsoft's analytics suite built on the company's popular SQL Server database platform.
+
+The major components of Power BI include the following:
+
+- Power BI Desktop is a Windows application for data analysts, allowing them to interact with data and publish reports for others.
+
+- The Power BI service is Microsoft's software-as-a-service (SaaS) offering that hosts Power BI capabilities in the cloud for customers to access.
+
+# MicroStrategy
+
+- MicroStrategy is an analytics suite that is less well-known than similar tools from IBM and Microsoft, but it does have a well-established user base.
+
+# Domo
+
+- Domo is a software-as-a-service (SaaS) analytics platform that allows businesses to ingest their data and apply a variety of analytic and modeling capabilities.
+
+# Datorama
+
+- Salesforce Datorama is an analytics tool that focuses on a specific component of an organization's business: sales and marketing.
+
+# AWS QuickSight
+
+- AWS QuickSight is a dashboarding tool available as part of the Amazon Web Services cloud offering.
+
+# Tableau
+
+- Tableau is arguably the most popular data visualization tool available in the market today.
+
+# Qlik
+
+Qlik is another popular SaaS analytics platform, offering access to cloud-based analytics capabilities. 
+
+- The major products offered by Qlik include the following:
+
+- QlikView is the company's original analytics platform that focuses on providing rapid insights.
+
+- Qlik Sense is a more advanced platform providing more sophisticated analytics capabilities (at a higher cost, of course!).
+
+# BusinessObjects
+
+- BusinessObjects is an enterprise reporting tool from SAP that is designed to provide a comprehensive reporting and analytics environment for organizations.
+
+Chapter Review – Exam Preparation
+
+# Describe the role of the spreadsheet in the modern organization. 
+
+- Spreadsheets are productivity software packages that allow users to create documents that organize any type of data into rows and columns.
+
+# Understand how analytics teams use programming languages. 
+
+- Data professionals with coding skills often turn to programming languages to create their software analysis tools.
+
+# Know how analysts and developers interact with databases. 
+
+- Relational databases are the primary data stores used in the modern organization.
+
+- Analysts and developers may interact directly with databases using the Structured Query Language (SQL).
+
+- SQL has two subcomponents. The Data Definition Language (DDL) defines the structure of the database and contains commands to create, alter, and destroy databases and tables.
+
+- The Data Manipulation Language (DML) interacts with the data stored in a database and contains commands to add, retrieve, modify, and delete data.
+
+# Describe the role of statistical analysis software. 
+
+- Statistical analysis software provides access to advanced statistical environments that are accessible through a graphical user interface and/or a built-in scripting language.
+
+# Describe the role of machine learning software. 
+
+- Machine learning packages offer a set of graphical tools designed to help analysts build machine learning models without requiring them to actually write the code to do so.
+
+- These machine-learning tools aim to make machine-learning techniques more accessible.
+
+# Describe the role of data analytics suites. 
+
+- Data analytics suites provide powerful capabilities that cross all phases of an analytics process.
+
+- These tools allow analysts to ingest and clean data, perform exploratory statistical analysis, visualize their data, produce models, make predictions.
