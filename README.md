@@ -876,7 +876,7 @@ In this chapter, we will learn about:
 
    Figure 4.10: Real estate sales outlier
 
-  Specification Mismatch
+# Specification Mismatch
 
 - A specification describes the target value for a component. 
 
@@ -900,7 +900,7 @@ In this chapter, we will learn about:
 
 - With those possibilities in mind, let's explore some of the data manipulation techniques you can use to resolve potential data quality issues.
 
-  Recoding Data
+ # Recoding Data
 
  - Recoding data is a technique you can use to map original values for a variable into new values to facilitate analysis. 
  
@@ -1010,7 +1010,7 @@ Figure 4.18: ETL and the data merge approach
 
 - In the context of data manipulation, normalizing data differs from our discussion of database normalization in Chapter 3.
 
-Min-Max Normalization
+# Min-Max Normalization
 
 - If you're curious about how the min-max normalization, consider its mathematical definition:
 
@@ -1042,13 +1042,13 @@ Min-Max Normalization
 
 - Final Product Preparation
 
-  Automated Validation
+# Automated Validation
 
 - Many data sources feed analytics environments. While some of these data sources are other computer systems, others depend directly on people.
 
 - Whenever people interact with systems, it's possible to introduce data-related errors.
 
-Data Quality Dimensions
+# Data Quality Dimensions
 
 - It is essential to consider multiple attributes of data when considering its quality. 
 
@@ -1104,7 +1104,7 @@ Data Quality Dimensions
 
 - Sampling is a statistical technique in which you use a subset of your data to inform conclusions about your overall data.
 
-Cross-Validation
+# Cross-Validation
 
 - Analysts frequently use existing data to generate predictive models using a variety of statistical methods. 
 
@@ -1170,15 +1170,15 @@ Table 5.1: Common symbols in statistics
 
 - Inferential statistics, on the other hand, use samples to draw inferences about larger populations.
 
-Sample
+# Sample
 
 - Size of the population used for study.
 
-Sample Size
+# Sample Size
 
 - Total amount of things in a sample.
 
-Quantitative Data
+# Quantitative Data
 
 - Data that is measured in numbers. It deals with numbers that make sense to perform artithmetic calculations with HEIGHT,WEIGHT,MIDTERM SCORE variables.
 
@@ -1186,7 +1186,7 @@ Categorical Data
 
 - Refers to the values that place things in different groups or categories.
 
-Descriptive Statistics
+# Descriptive Statistics
 
 - Descriptive statistics is a branch of statistics that summarizes and describes data.
 
@@ -1194,17 +1194,17 @@ Descriptive Statistics
 
 - You use descriptive statistics as measures to help you understand the characteristics of your dataset.
 
-Measures of Frequency
+# Measures of Frequency
 
 - Measures of frequency help you understand how often something happens.
 
 - When encountering a dataset for the first time, you want to determine how much data you are working with to help guide your analysis.
 
-Count
+# Count
 
 - The most straightforward way to understand how much data you're working with is to count the number of observations.
 
-Percentage
+# Percentage
 
 - The percentage is a frequency measure that identifies the proportion of a given value for a variable with respect to the total number of rows in the dataset.
 
@@ -1222,7 +1222,7 @@ Percentage
 
 - To help establish an overall perspective on a given dataset, an analyst explores various measures of central tendency.
 
- Mean
+# Mean
 
 - The mean, or average, is a measurement of central tendency that computes the arithmetic average for a given set of numeric values.
 
@@ -1243,13 +1243,13 @@ Odd Numbers Formula
 
 Even Numbers
 
-Mode
+# Mode
 
 - The mode is a variable's most frequently occurring observation.
 
 - Depending on your data, you may not have a mode.
 
-Measures of Dispersion
+# Measures of Dispersion
 
  - In addition to central tendency, it is crucial to understand the spread of your data. 
  
@@ -1257,15 +1257,15 @@ Measures of Dispersion
  
  - Let's explore five common measures of dispersion.
 
-Range
+# Range
 
 - The range of a variable is the difference between its maximum and minimum values.
 
-Distribution
+# Distribution
 
 - In statistics, a probability distribution, or distribution, is a function that illustrates probable values for a variable, and the frequency with which they occur.
 
-Normal Distribution
+# Normal Distribution
 
 - The normal distribution is symmetrically dispersed around its mean, which gives it a distinctive bell-like shape.
 
@@ -1298,7 +1298,7 @@ Skewed Distribution
 
  Variance Formula
 
- Standard Deviation
+ # Standard Deviation
 
 - Standard deviation is a statistic that measures dispersion in terms of how far values of a variable are from its mean.
 
@@ -1382,7 +1382,7 @@ Skewed Distribution
  
  Figure 5.19: Two-tailed test
 
- Simple Linear Regression
+ # Simple Linear Regression
 
 - Simple linear regression is an analysis technique that explores the relationship between an independent variable and a dependent variable.
 
@@ -1402,7 +1402,7 @@ Skewed Distribution
 
    Figure 5.26: Highly correlated data
 
-  Analysis Techniques
+# Analysis Techniques
 
 - Data analysts have an abundance of statistical tools available to explore data in the pursuit of insights.
 
@@ -1434,13 +1434,13 @@ Skewed Distribution
 
  - EDA, they typically encompass the following steps:
 
- Check Data Structure:  
+# Check Data Structure:  
  
  - Ensure that data is in the correct format for analysis.
  
  - Most analysis tools expect data to be in a tabular format, so you need to confirm that your data has defined rows and columns.
 
- Check Data Representation: 
+# Check Data Representation: 
  
  - Become familiar with the data. 
  
@@ -1454,7 +1454,7 @@ Skewed Distribution
  
  - If you discover that most of the data you need is missing.
 
- Identify Outliers: 
+ # Identify Outliers: 
 
 - Recall from Chapter 4 that an outlier is an observation of a variable that deviates significantly from other observations of that variable. 
 
@@ -1470,7 +1470,7 @@ Skewed Distribution
 
 Differentiate between descriptive and inferential statistics. 
 
-Descriptive statistics 
+# Descriptive statistics 
 
 - Helps you understand past events by summarizing data and include measures of frequency and measures of dispersion.
 
