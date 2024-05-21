@@ -1230,8 +1230,7 @@ Categorical Data
 
  Formula
 
-
-Median
+ Median
 
 - Another measurement of central tendency is the median, which identifies the midpoint value for all observations of a variable.
 
@@ -2044,7 +2043,7 @@ Figure 35: Headcount Waterfall Chart
 
 - To achieve strategic objectives, an organization executes multiple tactical initiatives.
 
- Chapter 7 Review – Exam Preparation
+# Chapter 7 Review – Exam Preparation
 
  Describe the most crucial first steps when developing a visualization. 
  
@@ -2052,7 +2051,9 @@ Figure 35: Headcount Waterfall Chart
 
  Compare reports and dashboards. 
  
- - Reports are static documents that are distributed physically or electronically. As static documents, they reflect data at the time of creation.
+ - Reports are static documents that are distributed physically or electronically.
+ 
+ - As static documents, they reflect data at the time of creation.
 
  Identify the best type of chart for a given scenario. 
  
