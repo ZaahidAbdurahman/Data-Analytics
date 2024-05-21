@@ -1743,3 +1743,261 @@ Chapter Review – Exam Preparation
 - Data analytics suites provide powerful capabilities that cross all phases of an analytics process.
 
 - These tools allow analysts to ingest and clean data, perform exploratory statistical analysis, visualize their data, produce models, make predictions.
+
+# Chapter 7
+
+# Understanding the Business Requirements
+
+- Reports and dashboards both summarize data for end users, but they distribute those summaries in different ways. 
+
+- A report is a static electronic or physical document that reflects information at a given point in time.
+
+- On the other hand, a dashboard is an interactive visualization that encourages people to explore data dynamically.
+
+- Both reports and dashboards are ideal tools for visualizing data content.
+
+- With a pull approach, you publish a report to a known location, like a web page, and let people know the frequency and timing of when the report updates.
+
+- With a push approach, the report is automatically sent to the appropriate people as it becomes available.
+
+-  With the blended approach, you inform people that the report is available while maintaining central control of the report itself.
+
+# Understanding Report Design Elements
+
+- Control: has to do with how you focus the attention of your audience. When someone encounters a dashboard for the first time, one of your goals is to deliver the pertinent information quickly.
+
+- Correctness: makes sure that your information is accurate and that there are no spelling mistakes. Pay close attention to correctness when using corporate names and logos.
+
+- Clarity: refers to selecting the right visualization tool for communicating your message, making sure the visualization is easy to interpret and visually crisp, and using fonts and sizes that are easy to read.
+
+- Consistency: refers to using the same design and documentation elements throughout your report or dashboard to give your visualization a cohesive and complete feel.
+
+- Concentration: refers to using visuals to focus your audience's attention on the most relevant information without overwhelming them with details.
+
+# Report cover page
+
+- When developing a printed report, keep in mind that the first thing people see is the cover page.
+
+- Since the cover page is the first thing a person sees, it is vital that it sets expectations about the observations and insights the reader will find within.
+
+# Executive Summary
+
+- Following a report's cover page is an executive summary.
+
+- The executive summary provides an overview of the report's contents.
+
+# Design Elements
+
+- When developing a report or dashboard, you need to incorporate design elements into your thinking.
+
+- Color schemes, page layout, font size and style, charts, and corporate standards are among the many design elements you should consider.
+
+# Color Schemes
+
+- A color scheme is a limited selection of colors you use when creating a report or a dashboard.
+
+- The first decision to make is whether you need to use a monochromatic color palette or have the flexibility to use more than one color.
+
+# Layouts
+
+- The layout of a report or dashboard determines the arrangement of its component parts. 
+
+- It is crucial to consider approachability when thinking about the design.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/a9d51ac3-cb2b-461a-bd3b-ecbe141b6cdf)
+
+  Figure 7: Nonparallel construction
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/897b206f-dd85-49ef-bb8f-07602268d07d)
+
+ Figure 8: Parallel construction
+
+# Fonts
+
+- When choosing a font style, pick one that is easy for people to read by avoiding ornate fonts.
+
+- After excluding ornate options, you need to decide between a serif or sans serif font style.
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/4448af7d-110a-4609-a6c1-55828ac3ffc3)
+
+   Figure 9: Serif and sans serif fonts
+
+  ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/24e441fd-40f3-4bac-ab80-363ef8e7e081)
+
+   Figure 10: Sample layout elements and font sizes
+
+# Graphics
+
+- Using graphics to present summary information is a practical choice, whether creating a report or developing a dashboard.
+
+- As the saying goes, a picture is worth a thousand words, and visually conveying information with charts helps focus your audience's attention.
+
+# Corporate Reporting Standards
+
+- When developing any type of visualization, be mindful of any existing corporate reporting standards.
+
+- For instance, your organization may have a style guide for reporting.
+
+# Documentation Elements
+
+- People must trust the information in your visualizations.
+
+- To help establish trust, you can incorporate documentation elements, including version numbers, reference data sources, and reference dates.
+
+# Version Number
+
+- A version number is a numeric value that refers to a specific version of a report.
+
+- Version numbers help you keep track of changes to content and layout over time.
+
+# Reference Data Sources
+
+- Reference dates help people understand what to expect in terms of data recency.
+
+- For example, if a report has a daily refresh cycle, the report run date helps people realize when the last data refresh date was.
+
+# Appendix
+
+- When developing a report, use an appendix to include supporting details that are inappropriate to include in the main body.
+
+# Understanding Dashboard Development Methods
+
+- Recall that dashboards are dynamic tools that help people explore data to inform their decision-making.
+
+# Data Source Considerations
+
+- With clarity on what your dashboard needs to contain, you can proceed with identifying data sources.
+
+- Static data: is data that refreshes at some regular interval.
+
+- A typical design pattern is for operational databases to update a data warehouse every night.
+
+- Continuous data: also known as live data, typically comes directly from an operational database that people use to perform their daily duties.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/5e2b2089-d652-434c-90ca-90bb08c368ef)
+
+ Figure 16: Data sourcing flowchart
+
+# Data Type Considerations
+
+- One thing that differentiates dashboards and reports is the fact that dashboards use software as the delivery mechanism.
+
+# Development Process
+
+- After you identify the data sources that will power your dashboard, you must turn your attention to developing the dashboard itself.
+
+- Use wireframes and mock-ups to help build and refine the dashboard's design
+
+- A mock-up extends a wireframe by providing details about the visual elements of the dashboard, including fonts, colors, logos, graphics and styles.
+
+# Delivery Considerations
+
+- Delivery considerations are a crucial part of the development process. 
+
+# Operational Considerations
+
+- Once you have final approval, you proceed with developing the dashboard.
+
+- Similar to the design stage, make sure you include frequent opportunities to gather feedback.
+
+- Once dashboard development is complete, test it thoroughly to verify its functionality.
+
+- Accounting for how you will refresh data is one of the many things to consider.
+
+# Exploring Visualization Types
+
+# Charts
+
+- Charts are one of the foundational methods for visualizing both qualitative and quantitative data.
+
+- There are many chart types, including line, pie, bar, stacked, scatter, and bubble charts.
+
+# Line Chart
+
+- A line chart shows the relationship of two variables along an x- and a y-axis.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/bd33288e-b23f-4b98-a696-5484a2266156)
+
+  Figure 18: Line Chart
+
+# Pie Chart
+
+- A pie chart gets its name from its circular shape where the circle represents 100 percent, and each slice of the pie is a proportion of the whole.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/d03fa9ae-97ae-4c34-9de6-adb9a6d194f5)
+
+ Figure 19: Pie chart
+
+# Bar Chart
+
+- Similar to a pie chart, a bar chart presents categorical data.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/a6c85031-596d-4f76-b298-a09a8c72af94)
+
+  Figure 21: Bar chart by count
+
+ # Stacked chart 
+  
+- Stacked bar chart, starts with a bar chart and extends it by incorporating proportional segments on each bar for categorical data.
+
+# Scatter Chart
+
+- A scatter chart, or scatter plot, uses a dot for each observation in a data set to show the relationship between two numeric variables.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/7cc0ee5d-b6cb-44ff-ba2e-3bcafb803a95)
+
+ Figure 22: Stacked Bar Chart
+
+ A bubble chart is a scatterplot where the size of each dot is dependent on a third numeric variable. 
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/3f4557c1-2e73-40de-9921-4a8511e0aeaf)
+ 
+  Figure 23: Average Duration Scatterplot
+
+ # Histogram
+
+- A histogram is a chart that shows a frequency distribution for numeric data.
+
+- When performing an exploratory data analysis, create histograms for numeric data.
+
+ ![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/7d12d63a-cfc4-4eae-84cf-8ae696bd97fb)
+
+  Figure 24: Budget and Box Office Gross Scatterplot
+
+ # Maps
+
+- People frequently use maps to convey the location of a country, town, or individual address.
+
+- Geographic maps are excellent for location-related data.
+
+- A heat map is a visualization that uses color and location to illustrate significance.
+
+- A tree map uses rectangles whose area depicts a proportional representation of hierarchical data.
+
+# Waterfall
+
+- A waterfall chart displays the cumulative effect of numeric values over time.
+
+- Waterfall charts facilitate an understanding of how a series of events impact an initial value.
+
+![image](https://github.com/ZaahidAbdurahman/Data-Analytics/assets/169241347/e3e52d8d-db24-4edf-b3a2-2551455af8a9)
+
+Figure 35: Headcount Waterfall Chart
+
+# Infographic
+
+- An infographic, which gets its name from the words “information” and “graphic,” is a visualization that presents information clearly and concisely.
+
+
+ Figure 36: Infographic
+
+# Word Cloud
+
+- A word cloud is a visualization that uses shape, font size, and color to signify the relative importance of words.
+
+# Comparing Report  Types
+
+
+
+
+
