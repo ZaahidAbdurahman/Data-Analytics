@@ -1988,7 +1988,6 @@ Figure 35: Headcount Waterfall Chart
 
 - An infographic, which gets its name from the words “information” and “graphic,” is a visualization that presents information clearly and concisely.
 
-
  Figure 36: Infographic
 
 # Word Cloud
@@ -1997,7 +1996,74 @@ Figure 35: Headcount Waterfall Chart
 
 # Comparing Report  Types
 
+- There are several report types to choose from, depending on the information you want to convey. 
 
+- When embarking on any reporting project, recall that you first have to identify the audience and their needs.
 
+# Static and Dynamic
 
+- It is imperative to identify whether a report needs to be static or dynamic, as that difference impacts where you get your data. 
 
+- Static reports pull data from various data sources to reflect data at a specific point in time.
+
+- Dynamic reports give people real-time access to information. 
+
+- Using your five-year trend report to inform their analysis, a financial analyst in your company may want to execute a trade.
+
+# Ad Hoc
+
+- Ad hoc reports, or one-time reports, use existing data to meet a unique need at a specific point in time.
+
+# Self-Service (On-Demand)
+
+- Self-service reports, or on-demand reports, allow individuals to answer questions that are unique to them at a time of their choosing.
+
+# Recurring Reports
+
+- Recurring reports provide summary information on a regularly scheduled basis.
+
+- Typically, recurring reports get delivered to their audience immediately after creation.
+
+- For example, a company's sales leader will want monthly, quarterly, and annual sales numbers available regularly.
+
+- Operational reports that organizations use to monitor organizational health and performance.
+
+- From a financial compliance reporting standpoint, if you are a public company in the United States, you need to document annual compliance with the Sarbanes–Oxley Act (SOX).
+
+- From a safety compliance reporting standpoint, you need to comply with the Occupational Safety and Health Act (OSHA) in the United States to ensure the safety of your employees.
+
+# Tactical and Research
+
+- It is vital to identify whether the report you create is for tactical or strategic purposes.
+
+- Tactical reports provide information to inform an organization's short-term decisions.
+
+- Tactical information helps organizations accomplish initiatives like constructing a building.
+
+- A research report helps an organization make strategic decisions.
+
+- To achieve strategic objectives, an organization executes multiple tactical initiatives.
+
+ Chapter 7 Review – Exam Preparation
+
+ Describe the most crucial first steps when developing a visualization. 
+ 
+ - The most important first steps when developing a visualization are identifying the audience and understanding their needs.
+
+ Compare reports and dashboards. 
+ 
+ - Reports are static documents that are distributed physically or electronically. As static documents, they reflect data at the time of creation.
+
+ Identify the best type of chart for a given scenario. 
+ 
+ - Given a specific scenario, select the type of chart that is most appropriate.
+ 
+ - Bar and pie charts work well for categorical data, whereas line charts are excellent for illustrating the relationship between two variables.
+
+  Identify the type of report that should be used in a given scenario. 
+  
+ - Given a specific scenario, identify the type of report that would meet the requirement. 
+
+  Describe considerations for maintaining data security. 
+  
+ - When working with static reports, having tight control over how reports get distributed is one approach to ensuring the security of the data in the report.
